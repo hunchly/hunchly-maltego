@@ -16,7 +16,7 @@ transform.parseArguments(sys.argv)
 
 # if passed a HunchlyPage we have a page_id
 
-process = Popen([hunchly_api_path, 'photo', 'get', '-s', transform.values['hash']], stdout=PIPE, stderr=PIPE)
+process = Popen([hunchly_api_path, 'photo', 'get', '-s', transform.values['hash']], stdout=PIPE, stderr=PIPE, errors="replace")
 
 stdout, stderr = process.communicate()
 

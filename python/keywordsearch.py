@@ -16,7 +16,7 @@ transform = MaltegoTransform()
 transform.parseArguments(sys.argv)
 
 process = Popen([hunchly_api_path, 'search', "-q", '+"%s"' % transform.values['text'], "--nc"], stdout=PIPE,
-                stderr=PIPE)
+                stderr=PIPE, errors="replace")
 stdout, stderr = process.communicate()
 
 try:

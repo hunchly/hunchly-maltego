@@ -17,7 +17,7 @@ transform = MaltegoTransform()
 transform.parseArguments(sys.argv)
 
 process = Popen([hunchly_api_path, "page", "list", "-n", transform.values['properties.hunchlycase']], stdout=PIPE,
-                stderr=PIPE)
+                stderr=PIPE, errors="replace")
 stdout, stderr = process.communicate()
 
 try:
