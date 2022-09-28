@@ -1205,6 +1205,16 @@ class HunchlyPhoto(object):
         self.entity_attribute_names = {"properties.hunchlyphoto": "Hunchly Page", "url": "URL", "hash": "SHA-256",
                                        "local_file": "Local File"}
 
+class HunchlyTaggedPhoto(object):
+
+    def __init__(self, entity_value):
+        self.entity_value = entity_value
+        self.entity_type = "hunchly.HunchlyTaggedPhoto"
+        self.entity_attributes = {"properties.hunchlyphoto": entity_value, "url": "", "hash": "", "local_file": ""}
+
+        self.entity_attribute_names = {"properties.hunchlyphoto": "Hunchly Page", "url": "URL", "hash": "SHA-256",
+                                       "local_file": "Local File"}
+
 
 class HunchlySelector(object):
 
