@@ -42,6 +42,7 @@ In the **python** folder there is a file named **config.py.** Open this file wit
 
  `hunchly\_api\_path = "/usr/lib/hunchly/HunchlyAPI"`
 
+## Configuration of Maltego
 
 Now we need to import the Hunchly Maltego configuration file. From the Maltego menu select **Import -\> Configuration**
 
