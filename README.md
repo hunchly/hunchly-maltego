@@ -71,4 +71,4 @@ Work your way down the list of Hunchly transforms and set the path for each of t
 
 ## Using The Hunchly Transforms
 
-The simplest way to get started is to drag a Hunchly case onto your Maltego graph, and set its name to match a case name in your Hunchly database. You can then run transforms against it or run the "Hunchly Full Case Extraction" machine which will pull all of the information for a case into your graph.
+The simplest way to get started is to drag a Hunchly case entity onto your Maltego graph, and set its name to match a case name in your Hunchly database. You can then run transforms against it or run the "Hunchly Full Case Extraction" machine which will pull all of the information for a case into your graph.
