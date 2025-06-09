@@ -1,6 +1,6 @@
 ###
 # File: getphotos.py
-# Authors: Divya Bhagavathiappan (divya@hunch.ly) and Justin Seitz (justin@hunch.ly)
+# Authors: Divya Bhagavathiappan (divya@hunch.ly) Justin Seitz (justin@hunch.ly) and Brock Lupton (brock@hunch.ly)
 # Last modified: 2025-06-09
 ###
 
